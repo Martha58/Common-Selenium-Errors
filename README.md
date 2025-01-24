@@ -15,8 +15,8 @@ Here are some of the most common errors developers encounter when using Selenium
 
 Modern websites are often built dynamically, meaning their content loads asynchronously. If your script tries to interact with an element before it has fully loaded, you may encounter errors like:
 
-    * NoSuchElementException
-    * StaleElementReferenceException
+  * NoSuchElementException
+  * StaleElementReferenceException
 
 Solution:
 Add explicit or implicit waits to your Selenium script to allow elements enough time to load.
